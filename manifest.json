@@ -1,0 +1,30 @@
+{  
+	"manifestType":"minecraftModpack",
+	"manifestVersion":1,
+	"name":"OFIDA2",
+	"version": "2.1",
+	"author":"malice936",
+	"description":"",
+	"files":[  
+		{
+		        "aName": "VeinMiner",
+			"projectID": 67133,
+			"fileID": 2234204,
+		}
+	],
+	"overrides":"common",
+	"minecraft":{  
+		"version":"1.7.10",
+		"libraries":"libraries",
+		"additionalJavaArgs":{  
+			"1.6":"-XX:JavaArgsAreSoMuchFun",
+			"1.7":"-XX:DifferentArgsHereBecauseWhyNot"
+		},
+		"modLoaders":[  
+			{  
+				"id":"forge-10.13.2.1291",
+				"primary":true
+			}
+		]
+	}
+}
